@@ -1,0 +1,151 @@
+{
+  "driver1": [
+    {
+      "id": "fakeId1",
+      "driverId": "driver1",
+      "label": "order_dropoff",
+      "comment": null,
+      "status": "not_started",
+      "startedAt": null,
+      "arrivalAt": null,
+      "completedAt": null,
+      "failedAt": null,
+      "createdAt": "2019-09-09T16:25:05.194Z",
+      "updatedAt": "2019-09-09T16:25:32.248Z",
+      "deletedAt": null
+    },
+    {
+      "id":"fakeId2",
+      "driverId": "driver1",
+      "label": "order_pickup",
+      "comment": null,
+      "status": "completed",
+      "startedAt": "2019-09-10T07:04:22.048Z",
+      "arrivalAt": "2019-09-10T07:04:22.056Z",
+      "completedAt": "2019-09-10T07:05:12.293Z",
+      "failedAt": null,
+      "createdAt": "2019-09-09T16:25:05.197Z",
+      "updatedAt": "2019-09-10T07:05:12.375Z",
+      "deletedAt": null
+    }
+  ],
+  "driver2": [
+    {
+      "id": "fakeId3",
+      "driverId": "driver2",
+      "label": "order_dropoff",
+      "comment": null,
+      "status": "not_started",
+      "startedAt": null,
+      "arrivalAt": null,
+      "completedAt": null,
+      "failedAt": null,
+      "createdAt": "2019-09-09T06:25:00.197Z",
+      "updatedAt": "2019-09-09T06:25:00.197Z",
+      "deletedAt": null
+    },
+    {
+      "id":"fakeId4",
+      "driverId": "driver2",
+      "label": "order_pickup",
+      "comment": null,
+      "status": "completed",
+      "startedAt": "2019-09-10T07:04:22.048Z",
+      "arrivalAt": "2019-09-10T11:12:22.056Z",
+      "completedAt": "2019-09-10T11:13:12.293Z",
+      "failedAt": null,
+      "createdAt": "2019-09-09T06:25:00.197Z",
+      "updatedAt": "2019-09-09T16:01:00.375Z",
+      "deletedAt": null
+    }
+  ],
+    "driver3": [
+      {
+        "id": "fakeId5",
+        "driverId": "driver3",
+        "label": "order_dropoff",
+        "comment": "Refused by the customer",
+        "status": "failed",
+        "startedAt": "2019-09-10T11:15:00.293Z",
+        "completedAt": "2019-09-10T12:13:46.293Z",
+        "failedAt": "2019-09-10T12:12:12.293Z",
+        "createdAt": "2019-09-09T06:25:00.197Z",
+        "updatedAt": "2019-09-09T06:25:00.197Z",
+        "deletedAt": null
+      },
+      {
+        "id":"fakeId6",
+        "driverId": "driver3",
+        "label": "order_pickup",
+        "comment": null,
+        "status": "completed",
+        "startedAt": "2019-09-10T09:48:54.032Z",
+        "arrivalAt": "2019-09-10T11:12:22.056Z",
+        "completedAt": "2019-09-10T11:13:12.293Z",
+        "failedAt": null,
+        "createdAt": "2019-09-09T06:25:00.197Z",
+        "updatedAt": "2019-09-09T16:01:00.375Z",
+        "deletedAt": null
+      }
+  ],
+  "driver4": [
+    {
+      "id": "fakeId7",
+      "driverId": "driver4",
+      "label": "order_dropoff",
+      "comment": null,
+      "status": "not_started",
+      "startedAt": null,
+      "arrivalAt": null,
+      "completedAt": null,
+      "failedAt": null,
+      "createdAt": "2019-09-09T19:34:05.194Z",
+      "updatedAt": "2019-09-09T19:34:32.248Z",
+      "deletedAt": null
+    },
+    {
+      "id":"fakeId8",
+      "driverId": "driver4",
+      "label": "order_pickup",
+      "comment": null,
+      "status": "started",
+      "startedAt": "2019-09-10T20:11:22.048Z",
+      "arrivalAt": null,
+      "completedAt": null,
+      "failedAt": null,
+      "createdAt": "2019-09-09T19:34:05.197Z",
+      "updatedAt": "2019-09-10T07:05:12.375Z",
+      "deletedAt": null
+    }
+  ],
+  "driver5": [
+    {
+      "id": "fakeId1",
+      "driverId": "driver5",
+      "label": "order_dropoff",
+      "comment": null,
+      "status": "not_started",
+      "startedAt": null,
+      "arrivalAt": null,
+      "completedAt": null,
+      "failedAt": null,
+      "createdAt": "2019-09-09T07:10:00.174Z",
+      "updatedAt": "2019-09-09T07:10:00.232Z",
+      "deletedAt": null
+    },
+    {
+      "id":"fakeId2",
+      "driverId": "driver5",
+      "label": "order_pickup",
+      "comment": null,
+      "status": "not_started",
+      "startedAt": null,
+      "arrivalAt": null,
+      "completedAt": null,
+      "failedAt": null,
+      "createdAt": "2019-09-09T07:10:00.197Z",
+      "updatedAt": "2019-09-10T07:11:12.375Z",
+      "deletedAt": null
+    }
+  ]
+}
