@@ -4,6 +4,7 @@ import { Provider as StyletronProvider } from "styletron-react";
 import { LightTheme, DarkTheme, BaseProvider } from "baseui";
 import { Button } from "baseui/button";
 
+import Map from "./components/Map";
 import Tracker from "./Tracker";
 
 import Layout from "./components/Layout";
@@ -30,6 +31,13 @@ const App = () => {
         </Button>
         <Layout>
           <Tracker />
+          <Map
+            isMarkerShown
+            googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+            loadingElement={<div style={{ height: `100%` }} />}
+            containerElement={<div style={{ height: `400px` }} />}
+            mapElement={<div style={{ height: `100%` }} />}
+          />
         </Layout>
       </BaseProvider>
     </StyletronProvider>
