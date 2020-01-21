@@ -4,7 +4,7 @@ import { Heading, HeadingLevel } from "baseui/heading";
 
 import DriversTable from "./components/DriversTable";
 
-const SOCKET_API_URL = "http://localhost:3000";
+const SOCKET_API_URL = "http://localhost:3099";
 
 const parseDriverLocationToTableData = driversLocations =>
   Object.entries(driversLocations).map(
